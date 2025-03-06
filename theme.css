@@ -1,6 +1,6 @@
 /*      Contents
  *
- 1 .* Dark Theme Colors
+ 1 Theme Colors
  2. live preview line number
  3. icons in pane
  4. Fonts
@@ -22,7 +22,7 @@
  20. Dim Home and Index
  */
 
-/*1.  Dark Theme Colors */
+/*1. Theme Colors */
 .theme-dark {
 
     --text-normal:                #ffffff;
@@ -34,7 +34,7 @@
     --text-highlight-bg:          #b1b1b1;
     --hover-accent:               #ff00f2;
 
-    --background-primary:         #242424;
+    --background-primary:         #050333;
     --background-secondary:       #050333;
     --background-modifier-border: #00ffff;
 
@@ -170,6 +170,7 @@ h6 {
     font-weight: 700;
     overflow: visible;
     text-align: center;
+
 }
 
 .cm-s-obsidian .cm-formatting-header {
@@ -180,12 +181,18 @@ h6 {
 h1 {
     text-shadow: 0 0 0.1em var(--text-title-h1) !important;
     border-bottom: 0px solid var(--text-title-h1) !important;
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
 }
 
 .cm-header-2:not(.cm-formatting),
 h2 {
     text-shadow: 0 0 0.1em var(--text-title-h2) !important;
     border-bottom: 0px solid var(--text-title-h2) !important;
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
 }
 
 
@@ -193,24 +200,36 @@ h2 {
 h3 {
     text-shadow: 0 0 0.1em var(--text-title-h3) !important;
     border-bottom: 0px solid var(--text-title-h3) !important;
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
 }
 
 .cm-header-4:not(.cm-formatting),
 h4 {
     text-shadow: 0 0 0.1em var(--text-title-h4) !important;
     border-bottom: 0px solid var(--text-title-h4) !important;
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
 }
 
 .cm-header-5:not(.cm-formatting),
 h5 {
     text-shadow: 0 0 0.1em var(--text-title-h5) !important;
     border-bottom: 0px solid var(--text-title-h5) !important;
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
 }
 
 .cm-header-6:not(.cm-formatting),
 h6 {
     text-shadow: 0 0 0.1em var(--text-title-h6) !important;
     border-bottom: 0px solid var(--text-title-h6) !important;
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
 }
 
 .cm-header, h1, h2, h3, h4, h5, h6 {
@@ -534,7 +553,7 @@ ul>li.task-list-item[data-task="X"] {
     display: flex;
 
     padding: 1px 1px 1px 1px;
-    color: #ffffff;
+
 }
 
 /*15. Setting modal */
@@ -562,7 +581,7 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
 
 body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-group:nth-last-of-type(3) .vertical-tab-header-group-title::before {
     content: " ";
-    color: var(--text-normal);
+    color: #0084ff;
     width: 16px;
     height: 16px;
     background-color: currentColor;
@@ -575,7 +594,7 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
 
 body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-group:nth-last-of-type(2) .vertical-tab-header-group-title::before {
     content: " ";
-    color: var(--text-normal);
+    color: #0084ff;
     width: 16px;
     height: 16px;
     background-color: currentColor;
@@ -587,7 +606,7 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
 
 body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-group:nth-last-of-type(1) .vertical-tab-header-group-title::before {
     content: " ";
-    color: var(--text-normal);
+    color: #0084ff;
     width: 16px;
     height: 16px;
     background-color: currentColor;
@@ -744,5 +763,3 @@ div[data-path="Ω Home.md"] {
 div[data-path="Ω Index.md"] {
     opacity: 0.50;
 }
-
-
